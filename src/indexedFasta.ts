@@ -1,5 +1,7 @@
 import { LocalFile, GenericFilehandle } from 'generic-filehandle'
 
+const Buffer = require('buffer/').Buffer
+
 interface BaseOpts {
   signal?: AbortSignal
 }
