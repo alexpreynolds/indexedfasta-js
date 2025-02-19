@@ -1,5 +1,5 @@
 {
-  "name": "apr144-indexedfasta",
+  "name": "@apr144/indexedfasta",
   "version": "2.1.0",
   "description": "read indexed fasta and bgzipped fasta formats",
   "license": "MIT",
@@ -39,6 +39,9 @@
     "biojs",
     "bionode"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "@gmod/bgzf-filehandle": "^1.4.0",
     "buffer": "^6.0.3",
